@@ -87,7 +87,8 @@ class cdma_parameters:
 
 print "CDMA PARAMETERS : for adaptive coded modulation"
 
-prefix="/home/anastas/gr-cdma/"  # put the prefix of your gr-cdma trunk
+#prefix="/home/anastas/gr-cdma/"  # put the prefix of your gr-cdma trunk
+prefix = "/home/uone/Gnuradio/gnuradioworkspace/CDMA/gr-cdma"
 
 
 length_tag_name = "cdma_packet_len"

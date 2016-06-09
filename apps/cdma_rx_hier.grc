@@ -93,7 +93,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(37, 625)</value>
+      <value>(40, 827)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -120,7 +120,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(44, 976)</value>
+      <value>(48, 1179)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -147,7 +147,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(96, 1460)</value>
+      <value>(96, 1659)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -201,7 +201,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(16, 749)</value>
+      <value>(16, 947)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -282,7 +282,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(552, 1115)</value>
+      <value>(552, 1315)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -309,7 +309,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(560, 1179)</value>
+      <value>(560, 1379)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -336,7 +336,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(732, 875)</value>
+      <value>(736, 1075)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -363,7 +363,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(658, 1010)</value>
+      <value>(656, 1211)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -511,7 +511,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(272, 1099)</value>
+      <value>(272, 1299)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -566,7 +566,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(272, 1187)</value>
+      <value>(272, 1387)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -621,7 +621,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(327, 628)</value>
+      <value>(328, 833)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -668,7 +668,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(618, 1498)</value>
+      <value>(616, 1699)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -719,7 +719,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(613, 1439)</value>
+      <value>(616, 1643)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -825,7 +825,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(632, 1701)</value>
+      <value>(632, 1899)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -872,7 +872,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(144, 2029)</value>
+      <value>(144, 2227)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -931,7 +931,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(251, 735)</value>
+      <value>(248, 939)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -978,7 +978,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(376, 1457)</value>
+      <value>(376, 1657)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1064,7 +1064,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>0</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1108,6 +1108,81 @@
     </param>
   </block>
   <block>
+    <key>cdma_freq_timing_estimator_with_debugger</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>debug_onoff</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(288, 587)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>cdma_freq_timing_estimator_with_debugger_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>alpha</key>
+      <value>0.01</value>
+    </param>
+    <param>
+      <key>debug_ports</key>
+      <value>range(cp.n_filt+1)</value>
+    </param>
+    <param>
+      <key>factor</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>freqs</key>
+      <value>9*(0,)</value>
+    </param>
+    <param>
+      <key>num_filter</key>
+      <value>cp.n_filt</value>
+    </param>
+    <param>
+      <key>prefix</key>
+      <value>"./debug/"</value>
+    </param>
+    <param>
+      <key>seq1</key>
+      <value>(0+0j,)</value>
+    </param>
+    <param>
+      <key>seq2</key>
+      <value>(0+0j,)</value>
+    </param>
+  </block>
+  <block>
     <key>cdma_packet_headerparser_b2</key>
     <param>
       <key>alias</key>
@@ -1131,7 +1206,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(608, 1643)</value>
+      <value>(608, 1843)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1170,7 +1245,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(608, 1557)</value>
+      <value>(608, 1755)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1217,7 +1292,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(273, 882)</value>
+      <value>(272, 1083)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1284,7 +1359,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(373, 1599)</value>
+      <value>(376, 1803)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1327,7 +1402,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(363, 1708)</value>
+      <value>(360, 1907)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1366,7 +1441,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(440, 2022)</value>
+      <value>(440, 2227)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1526,7 +1601,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(730, 923)</value>
+      <value>(728, 1123)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1569,7 +1644,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(819, 1498)</value>
+      <value>(816, 1699)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1612,7 +1687,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(768, 2036)</value>
+      <value>(768, 2235)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1655,7 +1730,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(817, 1427)</value>
+      <value>(816, 1627)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1698,7 +1773,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(568, 1252)</value>
+      <value>(568, 1451)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1827,7 +1902,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(537, 641)</value>
+      <value>(536, 843)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1854,7 +1929,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(16, 876)</value>
+      <value>(16, 1075)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1881,7 +1956,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(16, 1179)</value>
+      <value>(16, 1379)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1908,7 +1983,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(90, 1599)</value>
+      <value>(88, 1803)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1935,7 +2010,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(93, 1708)</value>
+      <value>(96, 1907)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1962,7 +2037,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(929, 1599)</value>
+      <value>(928, 1803)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2014,6 +2089,12 @@
   <connection>
     <source_block_id>RX_0_2_1</source_block_id>
     <sink_block_id>cdma_freq_timing_estimator_0_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>RX_0_2_1</source_block_id>
+    <sink_block_id>cdma_freq_timing_estimator_with_debugger_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
@@ -2115,6 +2196,30 @@
   </connection>
   <connection>
     <source_block_id>cdma_freq_timing_estimator_0_0</source_block_id>
+    <sink_block_id>pad_sink_1</sink_block_id>
+    <source_key>1</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>cdma_freq_timing_estimator_with_debugger_0</source_block_id>
+    <sink_block_id>cdma_flag_gen_1</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>cdma_freq_timing_estimator_with_debugger_0</source_block_id>
+    <sink_block_id>blocks_null_sink_0_1</sink_block_id>
+    <source_key>2</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>cdma_freq_timing_estimator_with_debugger_0</source_block_id>
+    <sink_block_id>acq_frequency</sink_block_id>
+    <source_key>1</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>cdma_freq_timing_estimator_with_debugger_0</source_block_id>
     <sink_block_id>pad_sink_1</sink_block_id>
     <source_key>1</source_key>
     <sink_key>0</sink_key>
