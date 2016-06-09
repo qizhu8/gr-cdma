@@ -115,13 +115,13 @@ frequency timing estimator class does frequency/timing acquisition from scratch.
         self.connect((self.blocks_peak_detector, 0), (self.blocks_sample_and_hold, 1))
         self.connect((self.blocks_sample_and_hold, 0), (self, 1))
         self.connect((self.blocks_max, 0), (self, 2))
-
-        for i in range(num_of_file_sinks):
-            port_index = self.debug_port[i]
-            if port_index == self.n:
-                self.connect((self.blocks_max, 0), (self._filesink[i], 0))
-            else:
-                self.connect((self._c2mag2[port_index], 0), (self._filesink[i], 0))
+        if self.debug_onoff == True:
+            for i in range(num_of_file_sinks):
+                port_index = self.debug_port[i]
+                if port_index == self.n:
+                    self.connect((self.blocks_max, 0), (self._filesink[i], 0))
+                else:
+                    self.connect((self._c2mag2[port_index], 0), (self._filesink[i], 0))
 
     def get_seq1(self):
     	"""
